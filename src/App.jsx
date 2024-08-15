@@ -1,4 +1,12 @@
+import { Menu } from "./components/Menu";
+
 export default function App() {
 
-  return <h1 className="bg-slate-500 p-3">ola portifolio</h1>
+   return (
+      <>
+         <div className="flex justify-center items-center w-screen h-screen bg-cover bg bg-[url('./assets/wp6777351.webp')]">
+            <Menu/>
+         </div>
+      </>
+   )
 }
