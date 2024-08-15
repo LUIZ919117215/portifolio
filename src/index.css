@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
    * {
@@ -10,5 +12,11 @@
    }
 }
 
-@tailwind components;
-@tailwind utilities;
+@layer base {
+   :root {
+      --color-backgrounnd-glass1: #e7dddd23;
+      --color-backgrounnd-glass2: #ffffff2d;
+      --color-text-blue: #250178;
+   }
+}
+
