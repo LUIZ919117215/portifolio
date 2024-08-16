@@ -1,10 +1,18 @@
 export function Home() {
    return (
       <>
-         <div className="text-skin-main p-4">
-            <h1 className="font-bold">Home</h1>
-            <h2>dtfghkgkfydtys</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odio magni facere explicabo voluptatum! Doloribus similique ducimus praesentium nostrum? Voluptatibus et voluptatum ullam architecto aliquam minus culpa laborum hic facere repellat voluptatem nobis laudantium consequatur aspernatur iste quis libero fugiat quibusdam autem, fuga earum totam pariatur laboriosam eveniet! Accusamus atque inventore fugit, omnis deserunt quo aperiam in eveniet quidem quaerat deleniti nobis a ut! Unde, error temporibus accusamus consectetur est facilis, suscipit quis laborum voluptas aliquid accusantium deleniti eligendi provident delectus dolorem sequi molestiae totam quasi voluptatum repudiandae eos labore! Eveniet ex maiores sequi fugit quidem totam perferendis? Iure, aspernatur?</p>
+         <div className="flex flex-col p-4 pt-40 text-center re text-skin-main md:w-[158rem] overflow-y-scroll">
+            <div>
+               <img src="" alt="Foto de perfil" />
+            </div>
+            <div className="py-[2.5rem]">
+               <h1 className="font-bold">Oi sou <span className="text-[2.45rem]">Luiz Isaque</span></h1>
+               <h2 className="font-bold">E sou um Desenvolvedor Front-end </h2>
+            </div>
+
+            <div>
+            <p>Sou um Desenvolvedor web iniciante em ascensão, siu um entusuasta de novas tecnologias, e busco diminar as ferramentas do mercado com exelência a fim de alcançar o melhor desempenho profissional</p>
+            </div>
          </div>
       </>
    )

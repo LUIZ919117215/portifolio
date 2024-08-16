@@ -5,6 +5,9 @@ import App from './App.jsx'
 import './index.css'
 import { Home } from './page/Home.jsx'
 import { About } from './page/About.jsx'
+import { Skill } from './page/Skill.jsx'
+import { Project } from './page/Project.jsx'
+import { Contact } from './page/Contact.jsx'
 
 const routers = createBrowserRouter(
    [
@@ -19,6 +22,18 @@ const routers = createBrowserRouter(
             { 
                path: '/About', 
                element: <About/>,
+            },
+            { 
+               path: '/Skill', 
+               element: <Skill/>,
+            },
+            { 
+               path: '/Project', 
+               element: <Project/>,
+            },
+            { 
+               path: '/Contact', 
+               element: <Contact/>,
             },
          ],
       },
