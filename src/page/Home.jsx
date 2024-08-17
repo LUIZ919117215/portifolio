@@ -1,7 +1,7 @@
 export function Home() {
    return (
       <>
-         <div className="flex flex-col p-4 pt-40 text-center re text-skin-main md:w-[158rem] overflow-y-scroll">
+         <div className="h-[82.5vh] flex flex-col p-4 pt-6 text-center text-skin-main md:h-[93.7vh] md:w-[158rem] overflow-y-scroll scrollbar-thin scrollbar-webkit">
             <div>
                <img src="" alt="Foto de perfil" />
             </div>
