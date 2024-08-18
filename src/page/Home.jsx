@@ -1,7 +1,7 @@
 export function Home() {
    return (
       <>
-         <div className="h-[82.5vh] flex flex-col p-4 pt-6 text-center text-skin-main md:h-[93.7vh] md:w-[158rem] overflow-y-scroll scrollbar-thin scrollbar-webkit">
+         <section className="main-sections">
             <div>
                <img src="" alt="Foto de perfil" />
             </div>
@@ -13,7 +13,7 @@ export function Home() {
             <div>
             <p>Sou um Desenvolvedor web iniciante em ascensão, siu um entusuasta de novas tecnologias, e busco diminar as ferramentas do mercado com exelência a fim de alcançar o melhor desempenho profissional</p>
             </div>
-         </div>
+         </section>
       </>
    )
 }

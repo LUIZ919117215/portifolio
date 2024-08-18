@@ -24,14 +24,12 @@ module.exports= {
          const newUtilities = {
             ".scrollbar-webkit": {
                "&::-webkit-scrollbar": {
-                  width: "7.3px" ,     
-               },
-               "&::-webkit-scrollbar-track": {
-                  borderWidth: "34px"
+                  width: "7.3px",
                },
                "&::-webkit-scrollbar-thumb": {
                   backgroundColor: "#250178",
                   borderRadius: "20px",
+
                }
             }
          } 
