@@ -22,7 +22,7 @@
 
 @layer components {
    .main-sections {
-      @apply h-[82.5vh] flex flex-col p-4 pt-6 text-center text-skin-main md:h-[93.7vh] md:w-[158rem] overflow-y-scroll scrollbar-webkit outline-none
+      @apply h-[82.5vh] flex flex-col p-4 pt-6 text-center text-skin-main md:h-[93.7vh] md:w-[158rem] overflow-y-scroll scrollbar-webkit outline-none animate-init-drop
    }
 
    .shadow-main {
